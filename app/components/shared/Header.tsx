@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 export default function Header() {
 
-    const [drawer, setDrawer] = useState(true)
+    const [drawer, setDrawer] = useState(false)
 
     const handleDrawer = () => {
         setDrawer(!drawer)
@@ -18,7 +18,7 @@ export default function Header() {
         <Wrapper style='bg-black text-white py-[40px]'>
             <header>
                 {drawer &&
-                    <RxCross2 className='text-white w-[30px] h-[30px] absolute top-[1rem] left-[1rem] z-20 sm:hidden' onClick={handleDrawer} />}
+                    <RxCross2 className='text-white w-[30px] h-[30px] absolute top-[1rem] left-[1rem] z-20 cursor-pointer sm:hidden' onClick={handleDrawer} />}
                 <ul className='flex mx-auto items-center justify-between max-w-[522px]'>
                     <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Markets</li>
                     <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Vaults</li>
@@ -27,7 +27,7 @@ export default function Header() {
                     <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Docs</li>
                     {
                         !drawer &&
-                        <GiHamburgerMenu className='text-white w-[30px] h-[30px] sm:hidden' onClick={handleDrawer} />
+                        <GiHamburgerMenu className='text-white w-[30px] h-[30px] cursor-pointer sm:hidden' onClick={handleDrawer} />
                     }
                 </ul>
                 {drawer && <Drawer />
