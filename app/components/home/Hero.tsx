@@ -3,8 +3,8 @@ import Wrapper from '../shared/Wrapper'
 import Image from 'next/image'
 export default function Hero() {
     return (
-        <Wrapper style='bg-[#07121e] py-[5rem]'>
-            <div className="absolute top-0 left-0 hidden lg:block">
+        <Wrapper style='bg-darkBg py-[5rem]'>
+            <div className="absolute top-0 left-0 z-10 hidden lg:block">
                 <Image src="/images/heroleft.svg" width={100} height={300} alt='' className='w-full' />
             </div>
             <div className="text-white flex flex-col justify-center items-center gap-[1rem] lg:w-[70%] mx-auto">
@@ -15,7 +15,7 @@ export default function Hero() {
                     <button className='w-fit py-[10px] px-[16px] rounded-[12px] text-[16px] font-[500] bg-[#012A36] text-white'>Read Docs</button>
                 </div>
             </div>
-            <div className="absolute top-0 right-0 hidden lg:block">
+            <div className="absolute top-0 right-0 z-10 hidden lg:block">
                 <Image src="/images/heroright.svg" width={100} height={300} alt='' className='w-full' />
             </div>
         </Wrapper>

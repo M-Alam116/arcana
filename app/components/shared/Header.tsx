@@ -15,16 +15,16 @@ export default function Header() {
     }
 
     return (
-        <Wrapper style='bg-black text-white py-[40px]'>
+        <Wrapper style='bg-darkBg py-[40px]'>
             <header>
                 {drawer &&
                     <RxCross2 className='text-white w-[30px] h-[30px] absolute top-[1rem] left-[1rem] z-20 cursor-pointer sm:hidden' onClick={handleDrawer} />}
                 <ul className='flex mx-auto items-center justify-between max-w-[522px]'>
-                    <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Markets</li>
-                    <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Vaults</li>
+                    <li className='text-[16px] text-white font-[500] leading-[28px] text-center hidden sm:inline cursor-pointer'>Markets</li>
+                    <li className='text-[16px] text-white font-[500] leading-[28px] text-center hidden sm:inline cursor-pointer'>Vaults</li>
                     <Image src="/images/logo.svg" width={140} height={35} alt='logo' />
-                    <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Tools</li>
-                    <li className='text-[16px] font-[500] leading-[28px] text-center hidden sm:inline'>Docs</li>
+                    <li className='text-[16px] text-white font-[500] leading-[28px] text-center hidden sm:inline cursor-pointer'>Tools</li>
+                    <li className='text-[16px] text-white font-[500] leading-[28px] text-center hidden sm:inline cursor-pointer'>Docs</li>
                     {
                         !drawer &&
                         <GiHamburgerMenu className='text-white w-[30px] h-[30px] cursor-pointer sm:hidden' onClick={handleDrawer} />

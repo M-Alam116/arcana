@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { MdOutlineEmail } from "react-icons/md";
 export default function Footer() {
     return (
-        <Wrapper style='bg-black text-white py-[70px]'>
+        <Wrapper style='bg-[#071118] text-white py-[70px]'>
             <footer className='flex flex-col gap-[3rem]'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[2rem]'>
                     <div className="flex flex-col gap-[1.5rem]">
