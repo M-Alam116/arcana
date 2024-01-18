@@ -5,8 +5,9 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { agate } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-export default function Api() {
+interface ApiProps { }
 
+const Api: React.FC<ApiProps> = () => {
     const codeString = `
     {
       "Get": "Frictionless Market Data, 
@@ -47,3 +48,4 @@ export default function Api() {
     );
 };
 
+export default Api;
