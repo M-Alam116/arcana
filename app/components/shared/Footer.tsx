@@ -1,18 +1,18 @@
 import React from 'react'
 import Wrapper from './Wrapper'
-import Image from 'next/image'
-import { MdOutlineEmail } from "react-icons/md";
+import Image from 'next/image';
+import { FaTwitter, FaFacebookF, FaLinkedin } from "react-icons/fa";
 export default function Footer() {
     return (
-        <Wrapper style='bg-[#071118] text-white py-[70px]'>
+        <Wrapper style='bg-[#012A36] text-white py-[70px]'>
             <footer className='flex flex-col gap-[3rem]'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[2rem]'>
                     <div className="flex flex-col gap-[1.5rem]">
                         <Image src="/images/logo.svg" width={140} height={35} alt='logo' />
                         <div className="flex items-center gap-[2rem] ml-[10px]">
-                            <MdOutlineEmail className='text-white w-[20px] h-[20px]' />
-                            <MdOutlineEmail className='text-white w-[20px] h-[20px]' />
-                            <MdOutlineEmail className='text-white w-[20px] h-[20px]' />
+                            <FaTwitter className='text-white w-[20px] h-[20px]' />
+                            <FaFacebookF className='text-white w-[20px] h-[20px]' />
+                            <FaLinkedin className='text-white w-[20px] h-[20px]' />
                         </div>
                     </div>
                     <div className="flex flex-col sm:flex-row justify-between gap-[1rem]">
