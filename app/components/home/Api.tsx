@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { agate } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-const Api = () => {
+export default function Api() {
 
     const codeString = `
     {
@@ -47,4 +47,3 @@ const Api = () => {
     );
 };
 
-export default Api;
