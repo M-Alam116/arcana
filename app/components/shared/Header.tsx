@@ -18,7 +18,7 @@ export default function Header() {
         <Wrapper style='bg-darkBg py-[40px]'>
             <header>
                 {drawer &&
-                    <RxCross2 className='text-white w-[30px] h-[30px] absolute top-[1rem] left-[1rem] z-20 cursor-pointer sm:hidden' onClick={handleDrawer} />}
+                    <RxCross2 className='text-white w-[30px] h-[30px] absolute top-[2rem] left-[1rem] z-20 cursor-pointer sm:hidden' onClick={handleDrawer} />}
                 <ul className='flex mx-auto items-center justify-between max-w-[522px]'>
                     <li className='text-[16px] text-white font-[500] leading-[28px] text-center hidden sm:inline cursor-pointer'>Markets</li>
                     <li className='text-[16px] text-white font-[500] leading-[28px] text-center hidden sm:inline cursor-pointer'>Vaults</li>
