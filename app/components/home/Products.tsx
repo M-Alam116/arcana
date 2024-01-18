@@ -12,7 +12,7 @@ export default function Products() {
             <div className="absolute inset-0 z-[-1]" style={{ backgroundImage: `url("/images/productbg.svg")`, opacity: 0.4, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}></div>
             <div className="py-[5rem] md:py-[7rem]">
                 <h2 className="text-[30px] sm:text-[34px] text-white font-[500] leading-[42px] sm:leading-[48px] text-center max-w-[400px] mx-auto mb-[2rem] md:mb-[3rem]">Unparalleled liquidity. Rock solid products.</h2>
-                <div className="flex flex-col gap-[1rem]">
+                <div className="flex flex-col gap-[2rem]">
                     <div className="w-full rounded-[32px] flex flex-col md:flex-row justify-between" style={{ backgroundImage: 'linear-gradient(255.71deg, #5099CC 0.96%, rgba(44, 85, 114, 0) 78.36%)' }}>
                         <div className="lg:w-[40%] flex flex-col gap-[10px] justify-center p-[2rem]">
                             <h2 className="text-[28px] sm:text-[34px] font-[600] text-white leading-[40px] sm:leading-[48px]">Token Vaults</h2>
@@ -27,7 +27,7 @@ export default function Products() {
                             <Image src="/images/tokenupper.png" width={400} height={380} alt='' className='absolute right-0 top-0 w-full h-full' />
                         </div>
                     </div>
-                    <div className="w-full flex flex-col lg:flex-row gap-[1rem]">
+                    <div className="w-full flex flex-col lg:flex-row gap-[2rem]">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1rem] bg-[#000] rounded-[32px] lg:w-[58%]">
                             <div className="hidden lg:flex">
                                 <Image src="/images/analytics.svg" width={270} height={400} alt='' className='rounded-l-[32px] h-full' />
