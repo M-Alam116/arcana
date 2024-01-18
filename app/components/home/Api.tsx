@@ -25,7 +25,7 @@ const Api: React.FC<ApiProps> = () => {
     return (
         <Wrapper style='py-[1rem] md:py-[3rem] md:py-[5rem]'>
             <div className="flex flex-col md:flex-row w-full">
-                <div className="bg-[#012A36] md:w-[60%] rounded-l-[32px] rounded-r-[32px] md:rounded-r-none">
+                <div className="bg-[#012A36] md:w-[60%] rounded-b-none md:rounded-l-[32px] rounded-r-[32px] md:rounded-r-none">
                     <div className="bg-[#344b66] flex items-center gap-[1rem] p-[1.5rem] rounded-tl-[32px] rounded-tr-[32px] md:rounded-tr-none">
                         <h2 className="text-[30px] sm:text-[34px] font-[600] text-white leading-[42px] sm:leading-[48px] text-center">Arcana Markets API</h2>
                         <span className='w-fit py-[3px] px-[16px] text-[16px] text-white font-[500] bg-[#012A36] rounded-[16px]'>v1.1.3</span>
@@ -36,7 +36,7 @@ const Api: React.FC<ApiProps> = () => {
                         </SyntaxHighlighter>
                     </div>
                 </div>
-                <div className="bg-[#5099CC] md:w-[40%] rounded-r-[32px] flex flex-col justify-center items-center py-[2rem] gap-[2rem] rounded-l-[32px] md:rounded-l-none">
+                <div className="bg-[#5099CC] md:w-[40%] rounded-t-none rounded-b-[32px] md:rounded-r-[32px] flex flex-col justify-center items-center py-[2rem] gap-[2rem] rounded-l-[32px] md:rounded-l-none">
                     <Image src="/images/book.png" width={100} height={130} alt='' />
                     <div className="flex items-center gap-[1rem] mt-[1rem] bg-[#012A36] w-fit py-[14px] px-[32px] rounded-[12px]">
                         <p className="text-[16px] font-[500] text-white">Explore API Docs</p>

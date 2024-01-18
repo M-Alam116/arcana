@@ -12,7 +12,7 @@ export default function Steps() {
                     </div>
                     <h2 className="text-[16px] font-[700] text-white">AWARDS</h2>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center w-[90%] mx-auto">
                     <Image src="/images/steps.svg" width={1000} height={272} alt='' />
                 </div>
             </div>
