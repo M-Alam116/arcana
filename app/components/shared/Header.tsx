@@ -15,7 +15,7 @@ export default function Header() {
     }
 
     return (
-        <Wrapper style='bg-darkBg py-[25px] sm:py-[40px]'>
+        <Wrapper style='bg-transperent py-[25px] sm:py-[40px] absolute top-0'>
             <header>
                 {drawer &&
                     <RxCross2 className='text-white w-[30px] h-[30px] absolute top-[2rem] left-[1rem] z-20 cursor-pointer sm:hidden' onClick={handleDrawer} />}

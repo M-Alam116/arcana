@@ -27,7 +27,7 @@ const Api: React.FC<ApiProps> = () => {
             <div className="flex flex-col md:flex-row w-full">
                 <div className="bg-[#012A36] md:w-[60%] rounded-b-none rounded-tl-[32px] md:rounded-bl-[32px] rounded-tr-[32px] md:rounded-r-none">
                     <div className="bg-[#344b66] flex items-center gap-[1rem] p-[1.5rem] rounded-tl-[32px] rounded-tr-[32px] md:rounded-tr-none">
-                        <h2 className="text-[30px] sm:text-[34px] font-[600] text-white leading-[42px] sm:leading-[48px] text-center">Arcana Markets API</h2>
+                        <h2 className="text-[28px] sm:text-[34px] font-[600] text-white leading-[36px] sm:leading-[48px] text-center">Arcana Markets API</h2>
                         <span className='w-fit py-[3px] px-[16px] text-[16px] text-white font-[500] bg-[#012A36] rounded-[16px]'>v1.1.3</span>
                     </div>
                     <div>
